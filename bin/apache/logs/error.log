@@ -1,0 +1,148 @@
+[Sun Nov 27 19:25:40.201859 2022] [ssl:warn] [pid 14684:tid 764] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:25:40.478529 2022] [mpm_winnt:notice] [pid 14684:tid 764] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sun Nov 27 19:25:40.479526 2022] [mpm_winnt:notice] [pid 14684:tid 764] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sun Nov 27 19:25:40.479526 2022] [core:notice] [pid 14684:tid 764] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/UwAmp/bin/apache -f C:\\Users\\erbhu\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sun Nov 27 19:25:40.484513 2022] [mpm_winnt:notice] [pid 14684:tid 764] AH00418: Parent: Created child process 15692
+[Sun Nov 27 19:25:41.484130 2022] [ssl:warn] [pid 15692:tid 828] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:25:41.503078 2022] [mpm_winnt:notice] [pid 15692:tid 828] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 19:26:51.879280 2022] [mpm_winnt:crit] [pid 15692:tid 828] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/UwAmp/www/myhost-exemple/] does not exist
+[Sun Nov 27 19:26:57.050754 2022] [core:warn] [pid 3468:tid 756] AH00098: pid file C:/Users/erbhu/Desktop/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 27 19:26:57.176896 2022] [ssl:warn] [pid 3468:tid 756] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:26:57.192832 2022] [mpm_winnt:notice] [pid 3468:tid 756] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sun Nov 27 19:26:57.192832 2022] [mpm_winnt:notice] [pid 3468:tid 756] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sun Nov 27 19:26:57.192832 2022] [core:notice] [pid 3468:tid 756] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/UwAmp/bin/apache -f C:\\Users\\erbhu\\Desktop\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sun Nov 27 19:26:57.194842 2022] [mpm_winnt:notice] [pid 3468:tid 756] AH00418: Parent: Created child process 2224
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/UwAmp/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/UwAmp/www/myhost-exemple/] does not exist
+[Sun Nov 27 19:26:57.994634 2022] [ssl:warn] [pid 2224:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:26:58.010601 2022] [mpm_winnt:notice] [pid 2224:tid 740] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 19:28:22.335613 2022] [mpm_winnt:crit] [pid 2224:tid 740] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Nov 27 19:32:06.313278 2022] [core:warn] [pid 5812:tid 760] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 27 19:32:06.443141 2022] [ssl:warn] [pid 5812:tid 760] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:32:06.491488 2022] [mpm_winnt:notice] [pid 5812:tid 760] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sun Nov 27 19:32:06.491488 2022] [mpm_winnt:notice] [pid 5812:tid 760] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sun Nov 27 19:32:06.491488 2022] [core:notice] [pid 5812:tid 760] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Sun Nov 27 19:32:06.497988 2022] [mpm_winnt:notice] [pid 5812:tid 760] AH00418: Parent: Created child process 8316
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Nov 27 19:32:07.356066 2022] [ssl:warn] [pid 8316:tid 780] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 27 19:32:07.374017 2022] [mpm_winnt:notice] [pid 8316:tid 780] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 19:32:45.837393 2022] [mpm_winnt:crit] [pid 8316:tid 780] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sat Dec 03 19:23:30.967953 2022] [core:warn] [pid 8768:tid 740] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Dec 03 19:23:31.116376 2022] [ssl:warn] [pid 8768:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Dec 03 19:23:31.478448 2022] [mpm_winnt:notice] [pid 8768:tid 740] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sat Dec 03 19:23:31.478448 2022] [mpm_winnt:notice] [pid 8768:tid 740] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sat Dec 03 19:23:31.478448 2022] [core:notice] [pid 8768:tid 740] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Sat Dec 03 19:23:31.481441 2022] [mpm_winnt:notice] [pid 8768:tid 740] AH00418: Parent: Created child process 14944
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sat Dec 03 19:23:32.461764 2022] [ssl:warn] [pid 14944:tid 556] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Dec 03 19:23:32.480685 2022] [mpm_winnt:notice] [pid 14944:tid 556] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 03 20:38:01.705367 2022] [mpm_winnt:crit] [pid 14944:tid 556] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sat Dec 03 20:38:11.031078 2022] [core:warn] [pid 15552:tid 564] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Dec 03 20:38:11.157763 2022] [ssl:warn] [pid 15552:tid 564] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Dec 03 20:38:11.175739 2022] [mpm_winnt:notice] [pid 15552:tid 564] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sat Dec 03 20:38:11.175739 2022] [mpm_winnt:notice] [pid 15552:tid 564] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sat Dec 03 20:38:11.175739 2022] [core:notice] [pid 15552:tid 564] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Sat Dec 03 20:38:11.178708 2022] [mpm_winnt:notice] [pid 15552:tid 564] AH00418: Parent: Created child process 7576
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sat Dec 03 20:38:12.043355 2022] [ssl:warn] [pid 7576:tid 744] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Dec 03 20:38:12.061924 2022] [mpm_winnt:notice] [pid 7576:tid 744] AH00354: Child: Starting 64 worker threads.
+[Sat Dec 03 20:43:36.286063 2022] [mpm_winnt:crit] [pid 7576:tid 744] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Dec 04 17:33:19.254820 2022] [core:warn] [pid 7564:tid 632] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 17:33:19.379859 2022] [ssl:warn] [pid 7564:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Dec 04 17:33:19.722788 2022] [mpm_winnt:notice] [pid 7564:tid 632] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sun Dec 04 17:33:19.722788 2022] [mpm_winnt:notice] [pid 7564:tid 632] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sun Dec 04 17:33:19.722788 2022] [core:notice] [pid 7564:tid 632] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Sun Dec 04 17:33:19.725757 2022] [mpm_winnt:notice] [pid 7564:tid 632] AH00418: Parent: Created child process 10192
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Dec 04 17:33:20.588510 2022] [ssl:warn] [pid 10192:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Dec 04 17:33:20.605465 2022] [mpm_winnt:notice] [pid 10192:tid 732] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 17:54:16.795853 2022] [mpm_winnt:crit] [pid 10192:tid 732] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Dec 04 17:55:07.639857 2022] [core:warn] [pid 8320:tid 728] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 17:55:07.792498 2022] [ssl:warn] [pid 8320:tid 728] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Dec 04 17:55:08.450228 2022] [mpm_winnt:notice] [pid 8320:tid 728] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Sun Dec 04 17:55:08.450228 2022] [mpm_winnt:notice] [pid 8320:tid 728] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Sun Dec 04 17:55:08.450228 2022] [core:notice] [pid 8320:tid 728] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Sun Dec 04 17:55:08.454217 2022] [mpm_winnt:notice] [pid 8320:tid 728] AH00418: Parent: Created child process 3236
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Sun Dec 04 17:55:09.461543 2022] [ssl:warn] [pid 3236:tid 740] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Dec 04 17:55:09.479290 2022] [mpm_winnt:notice] [pid 3236:tid 740] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 20:48:21.523307 2022] [mpm_winnt:crit] [pid 3236:tid 740] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 09 20:46:01.117452 2022] [core:warn] [pid 11640:tid 732] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 09 20:46:01.259793 2022] [ssl:warn] [pid 11640:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 09 20:46:01.661784 2022] [mpm_winnt:notice] [pid 11640:tid 732] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Fri Dec 09 20:46:01.661784 2022] [mpm_winnt:notice] [pid 11640:tid 732] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Fri Dec 09 20:46:01.661784 2022] [core:notice] [pid 11640:tid 732] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Fri Dec 09 20:46:01.664776 2022] [mpm_winnt:notice] [pid 11640:tid 732] AH00418: Parent: Created child process 14920
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 09 20:46:02.572725 2022] [ssl:warn] [pid 14920:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 09 20:46:02.591803 2022] [mpm_winnt:notice] [pid 14920:tid 748] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 09 21:07:44.098851 2022] [mpm_winnt:crit] [pid 14920:tid 748] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 09 21:07:49.147125 2022] [core:warn] [pid 15800:tid 732] AH00098: pid file C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 09 21:07:49.272759 2022] [ssl:warn] [pid 15800:tid 732] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 09 21:07:49.288639 2022] [mpm_winnt:notice] [pid 15800:tid 732] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Fri Dec 09 21:07:49.288639 2022] [mpm_winnt:notice] [pid 15800:tid 732] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Fri Dec 09 21:07:49.288639 2022] [core:notice] [pid 15800:tid 732] AH00094: Command line: 'C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/bin/apache -f C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Fri Dec 09 21:07:49.291608 2022] [mpm_winnt:notice] [pid 15800:tid 732] AH00418: Parent: Created child process 1392
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [C:/Users/erbhu/Desktop/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 09 21:07:50.131546 2022] [ssl:warn] [pid 1392:tid 748] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 09 21:07:50.149517 2022] [mpm_winnt:notice] [pid 1392:tid 748] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 09 21:16:49.209597 2022] [:error] [pid 1392:tid 1428] [client ::1:52758] PHP Notice:  Undefined variable: idCateg in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 160, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:16:49.209597 2022] [:error] [pid 1392:tid 1428] [client ::1:52758] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:16:49.209597 2022] [:error] [pid 1392:tid 1428] [client ::1:52758] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:19:22.945890 2022] [:error] [pid 1392:tid 1428] [client ::1:52880] PHP Notice:  Undefined variable: idCateg in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 160, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:19:22.945890 2022] [:error] [pid 1392:tid 1428] [client ::1:52880] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:19:22.945890 2022] [:error] [pid 1392:tid 1428] [client ::1:52880] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:22:49.728152 2022] [:error] [pid 1392:tid 1420] [client ::1:52999] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 162, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:22:49.728152 2022] [:error] [pid 1392:tid 1420] [client ::1:52999] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:22:49.728152 2022] [:error] [pid 1392:tid 1420] [client ::1:52999] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP Notice:  Array to string conversion in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 163, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP Notice:  Object of class PDOStatement could not be converted to int in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 164, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:30:26.856827 2022] [:error] [pid 1392:tid 1428] [client ::1:61341] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP Notice:  Array to string conversion in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 163, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP Notice:  Object of class PDOStatement could not be converted to int in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 164, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:32:47.064258 2022] [:error] [pid 1392:tid 1416] [client ::1:61370] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP Notice:  Array to string conversion in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 164, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP Notice:  Object of class PDOStatement could not be converted to int in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 166, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:11.084675 2022] [:error] [pid 1392:tid 1416] [client ::1:61418] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.826888 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP Notice:  Array to string conversion in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 164, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.826888 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.827886 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.827886 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP Notice:  Object of class PDOStatement could not be converted to int in C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php on line 166, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.827886 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP Stack trace:, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 21:35:50.827886 2022] [:error] [pid 1392:tid 1400] [client ::1:61432] PHP   1. {main}() C:\\Users\\erbhu\\Desktop\\AppWeb TSR 3.0.2\\www\\AppWebTSR\\traitementModifier.php:0, referer: http://localhost/AppWebTSR/modifier.php
+[Fri Dec 09 23:30:55.286314 2022] [mpm_winnt:crit] [pid 1392:tid 748] AH02538: Child: Parent process exited abruptly. Child process is ending
+AH00112: Warning: DocumentRoot [D:/Travail/Non Scolaire/Projets/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 08 15:21:08.327205 2023] [core:warn] [pid 17884:tid 712] AH00098: pid file D:/Travail/Non Scolaire/Projets/AppWeb TSR 3.0.2/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 08 15:21:08.480800 2023] [ssl:warn] [pid 17884:tid 712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 08 15:21:09.416321 2023] [mpm_winnt:notice] [pid 17884:tid 712] AH00455: Apache/2.4.10 (Win32) OpenSSL/1.0.1h PHP/5.4.31 configured -- resuming normal operations
+[Fri Dec 08 15:21:09.416321 2023] [mpm_winnt:notice] [pid 17884:tid 712] AH00456: Apache Haus VC9 Server built: Jul 15 2014 20:34:18
+[Fri Dec 08 15:21:09.416321 2023] [core:notice] [pid 17884:tid 712] AH00094: Command line: 'D:\\Travail\\Non Scolaire\\Projets\\AppWeb TSR 3.0.2\\bin\\apache\\bin\\httpd.exe -d D:/Travail/Non Scolaire/Projets/AppWeb TSR 3.0.2/bin/apache -f D:\\Travail\\Non Scolaire\\Projets\\AppWeb TSR 3.0.2\\bin\\apache\\conf\\httpd.conf'
+[Fri Dec 08 15:21:09.423326 2023] [mpm_winnt:notice] [pid 17884:tid 712] AH00418: Parent: Created child process 3476
+AH00112: Warning: DocumentRoot [D:/Travail/Non Scolaire/Projets/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+AH00112: Warning: DocumentRoot [D:/Travail/Non Scolaire/Projets/AppWeb TSR 3.0.2/www/myhost-exemple/] does not exist
+[Fri Dec 08 15:21:10.497311 2023] [ssl:warn] [pid 3476:tid 672] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 08 15:21:10.519243 2023] [mpm_winnt:notice] [pid 3476:tid 672] AH00354: Child: Starting 64 worker threads.

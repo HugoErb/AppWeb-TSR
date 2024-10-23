@@ -1,0 +1,991 @@
+2022-11-27 19:25:38 6448 [Note] Plugin 'FEDERATED' is disabled.
+2022-11-27 19:25:38 6448 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-11-27 19:25:38 6448 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-11-27 19:25:38 6448 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-11-27 19:25:38 6448 [Note] InnoDB: Memory barrier is not used
+2022-11-27 19:25:38 6448 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-11-27 19:25:38 6448 [Note] InnoDB: Not using CPU crc32 instructions
+2022-11-27 19:25:38 6448 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-11-27 19:25:38 6448 [Note] InnoDB: Completed initialization of buffer pool
+2022-11-27 19:25:38 6448 [Note] InnoDB: The first specified data file .\ibdata1 did not exist: a new database to be created!
+2022-11-27 19:25:38 6448 [Note] InnoDB: Setting file .\ibdata1 size to 12 MB
+2022-11-27 19:25:38 6448 [Note] InnoDB: Database physically writes the file full: wait...
+2022-11-27 19:25:38 6448 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+2022-11-27 19:25:39 6448 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+2022-11-27 19:25:39 6448 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2022-11-27 19:25:39 6448 [Warning] InnoDB: New log files created, LSN=45781
+2022-11-27 19:25:39 6448 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-11-27 19:25:39 6448 [Note] InnoDB: Doublewrite buffer created
+2022-11-27 19:25:39 6448 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-11-27 19:25:39 6448 [Warning] InnoDB: Creating foreign key constraint system tables.
+2022-11-27 19:25:39 6448 [Note] InnoDB: Foreign key constraint system tables created
+2022-11-27 19:25:39 6448 [Note] InnoDB: Creating tablespace and datafile system tables.
+2022-11-27 19:25:39 6448 [Note] InnoDB: Tablespace and datafile system tables created.
+2022-11-27 19:25:39 6448 [Note] InnoDB: Waiting for purge to start
+2022-11-27 19:25:39 6448 [Note] InnoDB: 5.6.20 started; log sequence number 0
+2022-11-27 19:25:39 6448 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-11-27 19:25:39 6448 [Note] IPv6 is available.
+2022-11-27 19:25:39 6448 [Note]   - '::' resolves to '::';
+2022-11-27 19:25:39 6448 [Note] Server socket created on IP: '::'.
+2022-11-27 19:25:39 6448 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:25:39 6448 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-11-27 19:25:39 6448 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:25:39 6448 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:25:39 6448 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-11-27 19:25:40 6448 [Note] Event Scheduler: Loaded 0 events
+2022-11-27 19:25:40 6448 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-11-27 19:26:52 6448 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-11-27 19:26:52 6448 [Note] Giving 0 client threads a chance to die gracefully
+2022-11-27 19:26:52 6448 [Note] Event Scheduler: Purging the queue. 0 events
+2022-11-27 19:26:52 6448 [Note] Shutting down slave threads
+2022-11-27 19:26:52 6448 [Note] Forcefully disconnecting 0 remaining clients
+2022-11-27 19:26:52 6448 [Note] Binlog end
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'partition'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_CMP'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'INNODB_TRX'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'InnoDB'
+2022-11-27 19:26:52 6448 [Note] InnoDB: FTS optimize thread exiting.
+2022-11-27 19:26:52 6448 [Note] InnoDB: Starting shutdown...
+2022-11-27 19:26:52 6448 [Note] InnoDB: Shutdown completed; log sequence number 1600607
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'BLACKHOLE'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'ARCHIVE'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'MyISAM'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'MEMORY'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'CSV'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'sha256_password'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'mysql_old_password'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'mysql_native_password'
+2022-11-27 19:26:52 6448 [Note] Shutting down plugin 'binlog'
+2022-11-27 19:26:52 6448 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-11-27 19:26:55 11940 [Note] Plugin 'FEDERATED' is disabled.
+2022-11-27 19:26:55 11940 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-11-27 19:26:55 11940 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-11-27 19:26:55 11940 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-11-27 19:26:55 11940 [Note] InnoDB: Memory barrier is not used
+2022-11-27 19:26:55 11940 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-11-27 19:26:55 11940 [Note] InnoDB: Not using CPU crc32 instructions
+2022-11-27 19:26:55 11940 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-11-27 19:26:56 11940 [Note] InnoDB: Completed initialization of buffer pool
+2022-11-27 19:26:56 11940 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-11-27 19:26:56 11940 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-11-27 19:26:56 11940 [Note] InnoDB: Waiting for purge to start
+2022-11-27 19:26:56 11940 [Note] InnoDB: 5.6.20 started; log sequence number 1600607
+2022-11-27 19:26:56 11940 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-11-27 19:26:56 11940 [Note] IPv6 is available.
+2022-11-27 19:26:56 11940 [Note]   - '::' resolves to '::';
+2022-11-27 19:26:56 11940 [Note] Server socket created on IP: '::'.
+2022-11-27 19:26:56 11940 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:26:56 11940 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-11-27 19:26:56 11940 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:26:56 11940 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:26:56 11940 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-11-27 19:26:56 11940 [Note] Event Scheduler: Loaded 0 events
+2022-11-27 19:26:56 11940 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:56 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."categorietireur" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."club" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."competition" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."tireur" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."#sql-2ea4_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:27:57 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:07 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:07 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:28:07 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:07 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:28:07 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:07 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:28:07 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:07 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:28:16 4344 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-11-27 19:28:16 4344 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-11-27 19:28:22 11940 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-11-27 19:28:22 11940 [Note] Giving 0 client threads a chance to die gracefully
+2022-11-27 19:28:22 11940 [Note] Event Scheduler: Purging the queue. 0 events
+2022-11-27 19:28:22 11940 [Note] Shutting down slave threads
+2022-11-27 19:28:22 11940 [Note] Forcefully disconnecting 0 remaining clients
+2022-11-27 19:28:22 11940 [Note] Binlog end
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'partition'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_CMP'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'INNODB_TRX'
+2022-11-27 19:28:22 11940 [Note] Shutting down plugin 'InnoDB'
+2022-11-27 19:28:22 11940 [Note] InnoDB: FTS optimize thread exiting.
+2022-11-27 19:28:22 11940 [Note] InnoDB: Starting shutdown...
+2022-11-27 19:28:23 11940 [Note] InnoDB: Shutdown completed; log sequence number 1861357
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'BLACKHOLE'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'ARCHIVE'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'MyISAM'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'MEMORY'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'CSV'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'sha256_password'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'mysql_old_password'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'mysql_native_password'
+2022-11-27 19:28:23 11940 [Note] Shutting down plugin 'binlog'
+2022-11-27 19:28:23 11940 [Note] C:\Users\erbhu\Desktop\UwAmp\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-11-27 19:32:05 10016 [Note] Plugin 'FEDERATED' is disabled.
+2022-11-27 19:32:05 10016 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-11-27 19:32:05 10016 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-11-27 19:32:05 10016 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-11-27 19:32:05 10016 [Note] InnoDB: Memory barrier is not used
+2022-11-27 19:32:05 10016 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-11-27 19:32:05 10016 [Note] InnoDB: Not using CPU crc32 instructions
+2022-11-27 19:32:05 10016 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-11-27 19:32:05 10016 [Note] InnoDB: Completed initialization of buffer pool
+2022-11-27 19:32:05 10016 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-11-27 19:32:05 10016 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-11-27 19:32:05 10016 [Note] InnoDB: Waiting for purge to start
+2022-11-27 19:32:05 10016 [Note] InnoDB: 5.6.20 started; log sequence number 1861357
+2022-11-27 19:32:05 10016 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-11-27 19:32:05 10016 [Note] IPv6 is available.
+2022-11-27 19:32:05 10016 [Note]   - '::' resolves to '::';
+2022-11-27 19:32:05 10016 [Note] Server socket created on IP: '::'.
+2022-11-27 19:32:05 10016 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:32:05 10016 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-11-27 19:32:05 10016 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:32:05 10016 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-11-27 19:32:05 10016 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-11-27 19:32:05 10016 [Note] Event Scheduler: Loaded 0 events
+2022-11-27 19:32:05 10016 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-11-27 19:32:45 10016 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-11-27 19:32:45 10016 [Note] Giving 0 client threads a chance to die gracefully
+2022-11-27 19:32:45 10016 [Note] Event Scheduler: Purging the queue. 0 events
+2022-11-27 19:32:45 10016 [Note] Shutting down slave threads
+2022-11-27 19:32:45 10016 [Note] Forcefully disconnecting 0 remaining clients
+2022-11-27 19:32:45 10016 [Note] Binlog end
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'partition'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_CMP'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'INNODB_TRX'
+2022-11-27 19:32:45 10016 [Note] Shutting down plugin 'InnoDB'
+2022-11-27 19:32:45 10016 [Note] InnoDB: FTS optimize thread exiting.
+2022-11-27 19:32:45 10016 [Note] InnoDB: Starting shutdown...
+2022-11-27 19:32:47 10016 [Note] InnoDB: Shutdown completed; log sequence number 1861367
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'BLACKHOLE'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'ARCHIVE'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'MyISAM'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'MEMORY'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'CSV'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'sha256_password'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'mysql_old_password'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'mysql_native_password'
+2022-11-27 19:32:47 10016 [Note] Shutting down plugin 'binlog'
+2022-11-27 19:32:47 10016 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-03 19:23:29 2644 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-03 19:23:29 2644 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-03 19:23:29 2644 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-03 19:23:29 2644 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-03 19:23:29 2644 [Note] InnoDB: Memory barrier is not used
+2022-12-03 19:23:29 2644 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-03 19:23:29 2644 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-03 19:23:29 2644 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-03 19:23:29 2644 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-03 19:23:29 2644 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-03 19:23:29 2644 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-03 19:23:29 2644 [Note] InnoDB: Waiting for purge to start
+2022-12-03 19:23:29 2644 [Note] InnoDB: 5.6.20 started; log sequence number 1861367
+2022-12-03 19:23:29 2644 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-03 19:23:29 2644 [Note] IPv6 is available.
+2022-12-03 19:23:29 2644 [Note]   - '::' resolves to '::';
+2022-12-03 19:23:29 2644 [Note] Server socket created on IP: '::'.
+2022-12-03 19:23:29 2644 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 19:23:29 2644 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-03 19:23:29 2644 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 19:23:29 2644 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 19:23:29 2644 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-03 19:23:30 2644 [Note] Event Scheduler: Loaded 0 events
+2022-12-03 19:23:30 2644 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-03 19:23:35 2938 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 19:23:35 2938 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 19:23:35 2938 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 19:23:35 2938 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 19:23:35 2938 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 19:23:35 2938 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 19:23:35 2938 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 19:23:35 2938 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 19:55:20 2938 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 19:55:20 2938 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:38:01 2644 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-03 20:38:01 2644 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-03 20:38:01 2644 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-03 20:38:01 2644 [Note] Shutting down slave threads
+2022-12-03 20:38:01 2644 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-03 20:38:01 2644 [Note] Binlog end
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'partition'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-03 20:38:01 2644 [Note] Shutting down plugin 'InnoDB'
+2022-12-03 20:38:01 2644 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-03 20:38:01 2644 [Note] InnoDB: Starting shutdown...
+2022-12-03 20:38:03 2644 [Note] InnoDB: Shutdown completed; log sequence number 1864026
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'MyISAM'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'MEMORY'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'CSV'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'sha256_password'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-03 20:38:03 2644 [Note] Shutting down plugin 'binlog'
+2022-12-03 20:38:03 2644 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-03 20:38:10 8080 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-03 20:38:10 8080 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-03 20:38:10 8080 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-03 20:38:10 8080 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-03 20:38:10 8080 [Note] InnoDB: Memory barrier is not used
+2022-12-03 20:38:10 8080 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-03 20:38:10 8080 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-03 20:38:10 8080 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-03 20:38:10 8080 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-03 20:38:10 8080 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-03 20:38:10 8080 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-03 20:38:10 8080 [Note] InnoDB: Waiting for purge to start
+2022-12-03 20:38:10 8080 [Note] InnoDB: 5.6.20 started; log sequence number 1864026
+2022-12-03 20:38:10 8080 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-03 20:38:10 8080 [Note] IPv6 is available.
+2022-12-03 20:38:10 8080 [Note]   - '::' resolves to '::';
+2022-12-03 20:38:10 8080 [Note] Server socket created on IP: '::'.
+2022-12-03 20:38:10 8080 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 20:38:10 8080 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-03 20:38:10 8080 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 20:38:10 8080 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-03 20:38:10 8080 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-03 20:38:10 8080 [Note] Event Scheduler: Loaded 0 events
+2022-12-03 20:38:10 8080 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-03 20:38:16 332c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 20:38:16 332c InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:38:30 332c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 20:38:30 332c InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:38:30 332c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 20:38:30 332c InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:38:30 332c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 20:38:30 332c InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:38:30 332c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-03 20:38:30 332c InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-03 20:43:36 8080 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-03 20:43:36 8080 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-03 20:43:36 8080 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-03 20:43:36 8080 [Note] Shutting down slave threads
+2022-12-03 20:43:36 8080 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-03 20:43:36 8080 [Note] Binlog end
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'partition'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-03 20:43:36 8080 [Note] Shutting down plugin 'InnoDB'
+2022-12-03 20:43:36 8080 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-03 20:43:36 8080 [Note] InnoDB: Starting shutdown...
+2022-12-03 20:43:37 8080 [Note] InnoDB: Shutdown completed; log sequence number 1864046
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'MyISAM'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'MEMORY'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'CSV'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'sha256_password'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-03 20:43:37 8080 [Note] Shutting down plugin 'binlog'
+2022-12-03 20:43:37 8080 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-04 17:33:17 4664 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-04 17:33:17 4664 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-04 17:33:17 4664 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-04 17:33:17 4664 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-04 17:33:17 4664 [Note] InnoDB: Memory barrier is not used
+2022-12-04 17:33:17 4664 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-04 17:33:17 4664 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-04 17:33:17 4664 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-04 17:33:17 4664 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-04 17:33:17 4664 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-04 17:33:17 4664 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-04 17:33:17 4664 [Note] InnoDB: Waiting for purge to start
+2022-12-04 17:33:18 4664 [Note] InnoDB: 5.6.20 started; log sequence number 1864046
+2022-12-04 17:33:18 4664 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-04 17:33:18 4664 [Note] IPv6 is available.
+2022-12-04 17:33:18 4664 [Note]   - '::' resolves to '::';
+2022-12-04 17:33:18 4664 [Note] Server socket created on IP: '::'.
+2022-12-04 17:33:18 4664 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:33:18 4664 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-04 17:33:18 4664 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:33:18 4664 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:33:18 4664 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-04 17:33:18 4664 [Note] Event Scheduler: Loaded 0 events
+2022-12-04 17:33:18 4664 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-04 17:33:23 1df0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:33:23 1df0 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:33:26 1df0 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:54:17 4664 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-04 17:54:17 4664 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-04 17:54:17 4664 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-04 17:54:17 4664 [Note] Shutting down slave threads
+2022-12-04 17:54:17 4664 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-04 17:54:17 4664 [Note] Binlog end
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'partition'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-04 17:54:17 4664 [Note] Shutting down plugin 'InnoDB'
+2022-12-04 17:54:17 4664 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-04 17:54:17 4664 [Note] InnoDB: Starting shutdown...
+2022-12-04 17:54:18 4664 [Note] InnoDB: Shutdown completed; log sequence number 1864086
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'MyISAM'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'MEMORY'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'CSV'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'sha256_password'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-04 17:54:18 4664 [Note] Shutting down plugin 'binlog'
+2022-12-04 17:54:18 4664 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-04 17:55:06 15896 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-04 17:55:06 15896 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-04 17:55:06 15896 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-04 17:55:06 15896 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-04 17:55:06 15896 [Note] InnoDB: Memory barrier is not used
+2022-12-04 17:55:06 15896 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-04 17:55:06 15896 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-04 17:55:06 15896 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-04 17:55:06 15896 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-04 17:55:06 15896 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-04 17:55:06 15896 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-04 17:55:06 15896 [Note] InnoDB: Waiting for purge to start
+2022-12-04 17:55:06 15896 [Note] InnoDB: 5.6.20 started; log sequence number 1864086
+2022-12-04 17:55:06 15896 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-04 17:55:06 15896 [Note] IPv6 is available.
+2022-12-04 17:55:06 15896 [Note]   - '::' resolves to '::';
+2022-12-04 17:55:06 15896 [Note] Server socket created on IP: '::'.
+2022-12-04 17:55:06 15896 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:55:06 15896 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-04 17:55:06 15896 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:55:06 15896 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-04 17:55:06 15896 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-04 17:55:06 15896 [Note] Event Scheduler: Loaded 0 events
+2022-12-04 17:55:06 15896 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-04 17:55:11 3738 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:55:11 3738 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:55:11 3738 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:55:11 3738 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 17:55:11 3738 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 17:55:11 3738 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 18:11:52 3738 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 18:11:52 3738 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 18:11:52 3738 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-04 18:11:52 3738 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-04 20:48:21 15896 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-04 20:48:21 15896 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-04 20:48:21 15896 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-04 20:48:21 15896 [Note] Shutting down slave threads
+2022-12-04 20:48:21 15896 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-04 20:48:21 15896 [Note] Binlog end
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'partition'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-04 20:48:21 15896 [Note] Shutting down plugin 'InnoDB'
+2022-12-04 20:48:21 15896 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-04 20:48:21 15896 [Note] InnoDB: Starting shutdown...
+2022-12-04 20:48:22 15896 [Note] InnoDB: Shutdown completed; log sequence number 1864362
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'MyISAM'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'MEMORY'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'CSV'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'sha256_password'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-04 20:48:22 15896 [Note] Shutting down plugin 'binlog'
+2022-12-04 20:48:22 15896 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-09 20:45:59 4852 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-09 20:45:59 4852 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-09 20:45:59 4852 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-09 20:45:59 4852 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-09 20:45:59 4852 [Note] InnoDB: Memory barrier is not used
+2022-12-09 20:45:59 4852 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-09 20:45:59 4852 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-09 20:45:59 4852 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-09 20:45:59 4852 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-09 20:45:59 4852 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-09 20:45:59 4852 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-09 20:45:59 4852 [Note] InnoDB: Waiting for purge to start
+2022-12-09 20:45:59 4852 [Note] InnoDB: 5.6.20 started; log sequence number 1864362
+2022-12-09 20:45:59 4852 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-09 20:45:59 4852 [Note] IPv6 is available.
+2022-12-09 20:45:59 4852 [Note]   - '::' resolves to '::';
+2022-12-09 20:45:59 4852 [Note] Server socket created on IP: '::'.
+2022-12-09 20:46:00 4852 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 20:46:00 4852 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-09 20:46:00 4852 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 20:46:00 4852 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 20:46:00 4852 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-09 20:46:00 4852 [Note] Event Scheduler: Loaded 0 events
+2022-12-09 20:46:00 4852 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-09 20:54:05 3018 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 20:54:05 3018 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 20:56:21 3018 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 20:56:21 3018 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:04:00 3018 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:04:00 3018 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:04:00 3018 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:04:00 3018 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:04:00 3018 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:04:00 3018 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:07:44 4852 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-09 21:07:44 4852 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-09 21:07:44 4852 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-09 21:07:44 4852 [Note] Shutting down slave threads
+2022-12-09 21:07:44 4852 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-09 21:07:44 4852 [Note] Binlog end
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'partition'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-09 21:07:44 4852 [Note] Shutting down plugin 'InnoDB'
+2022-12-09 21:07:44 4852 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-09 21:07:44 4852 [Note] InnoDB: Starting shutdown...
+2022-12-09 21:07:45 4852 [Note] InnoDB: Shutdown completed; log sequence number 1864422
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'MyISAM'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'MEMORY'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'CSV'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'sha256_password'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-09 21:07:45 4852 [Note] Shutting down plugin 'binlog'
+2022-12-09 21:07:45 4852 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2022-12-09 21:07:48 15032 [Note] Plugin 'FEDERATED' is disabled.
+2022-12-09 21:07:48 15032 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-12-09 21:07:48 15032 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-12-09 21:07:48 15032 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-12-09 21:07:48 15032 [Note] InnoDB: Memory barrier is not used
+2022-12-09 21:07:48 15032 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-12-09 21:07:48 15032 [Note] InnoDB: Not using CPU crc32 instructions
+2022-12-09 21:07:48 15032 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-12-09 21:07:48 15032 [Note] InnoDB: Completed initialization of buffer pool
+2022-12-09 21:07:48 15032 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-12-09 21:07:48 15032 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-12-09 21:07:48 15032 [Note] InnoDB: Waiting for purge to start
+2022-12-09 21:07:48 15032 [Note] InnoDB: 5.6.20 started; log sequence number 1864422
+2022-12-09 21:07:48 15032 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-12-09 21:07:48 15032 [Note] IPv6 is available.
+2022-12-09 21:07:48 15032 [Note]   - '::' resolves to '::';
+2022-12-09 21:07:48 15032 [Note] Server socket created on IP: '::'.
+2022-12-09 21:07:48 15032 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 21:07:48 15032 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-12-09 21:07:48 15032 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 21:07:48 15032 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2022-12-09 21:07:48 15032 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-12-09 21:07:48 15032 [Note] Event Scheduler: Loaded 0 events
+2022-12-09 21:07:48 15032 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-12-09 21:08:05 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:08:05 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:08:05 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:08:05 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:08:05 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:08:05 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:08:05 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:08:05 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:17:52 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:17:52 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."avoir" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 21:32:47 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 21:32:47 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 22:41:51 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:41:51 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."tireur" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 22:47:12 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:47:12 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 22:47:12 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:47:12 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 22:47:42 1cec InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:47:42 1cec InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-12-09 22:48:25 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:48:25 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 22:53:20 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:53:20 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 22:55:38 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:55:38 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 22:57:18 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 22:57:18 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."tireur" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 23:05:31 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2022-12-09 23:05:31 2444 InnoDB: Recalculation of persistent statistics requested for table "bdtsr"."avoir" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-12-09 23:30:55 15032 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2022-12-09 23:30:55 15032 [Note] Giving 0 client threads a chance to die gracefully
+2022-12-09 23:30:55 15032 [Note] Event Scheduler: Purging the queue. 0 events
+2022-12-09 23:30:55 15032 [Note] Shutting down slave threads
+2022-12-09 23:30:55 15032 [Note] Forcefully disconnecting 0 remaining clients
+2022-12-09 23:30:55 15032 [Note] Binlog end
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'partition'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_CMP'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'INNODB_TRX'
+2022-12-09 23:30:55 15032 [Note] Shutting down plugin 'InnoDB'
+2022-12-09 23:30:55 15032 [Note] InnoDB: FTS optimize thread exiting.
+2022-12-09 23:30:55 15032 [Note] InnoDB: Starting shutdown...
+2022-12-09 23:30:56 15032 [Note] InnoDB: Shutdown completed; log sequence number 1898466
+2022-12-09 23:30:56 15032 [Note] Shutting down plugin 'BLACKHOLE'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'ARCHIVE'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'MyISAM'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'MEMORY'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'CSV'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'sha256_password'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'mysql_old_password'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'mysql_native_password'
+2022-12-09 23:30:57 15032 [Note] Shutting down plugin 'binlog'
+2022-12-09 23:30:57 15032 [Note] C:\Users\erbhu\Desktop\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+
+2023-12-08 15:21:06 6400 [Note] Plugin 'FEDERATED' is disabled.
+2023-12-08 15:21:06 6400 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2023-12-08 15:21:06 6400 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-12-08 15:21:06 6400 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-12-08 15:21:06 6400 [Note] InnoDB: Memory barrier is not used
+2023-12-08 15:21:06 6400 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-12-08 15:21:06 6400 [Note] InnoDB: Not using CPU crc32 instructions
+2023-12-08 15:21:06 6400 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-12-08 15:21:06 6400 [Note] InnoDB: Completed initialization of buffer pool
+2023-12-08 15:21:07 6400 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-12-08 15:21:07 6400 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-12-08 15:21:07 6400 [Note] InnoDB: Waiting for purge to start
+2023-12-08 15:21:07 6400 [Note] InnoDB: 5.6.20 started; log sequence number 1898466
+2023-12-08 15:21:08 6400 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-12-08 15:21:08 6400 [Note] IPv6 is available.
+2023-12-08 15:21:08 6400 [Note]   - '::' resolves to '::';
+2023-12-08 15:21:08 6400 [Note] Server socket created on IP: '::'.
+2023-12-08 15:21:08 6400 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2023-12-08 15:21:08 6400 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2023-12-08 15:21:08 6400 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2023-12-08 15:21:08 6400 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2023-12-08 15:21:08 6400 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2023-12-08 15:21:08 6400 [Note] Event Scheduler: Loaded 0 events
+2023-12-08 15:21:08 6400 [Note] D:\Travail\Non Scolaire\Projets\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: ready for connections.
+Version: '5.6.20-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-12-08 15:21:15 3484 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2023-12-08 15:21:15 3484 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."competition" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2023-12-08 15:21:15 3484 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2023-12-08 15:21:15 3484 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."club" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2023-12-08 15:21:15 3484 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2023-12-08 15:21:15 3484 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."tireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2023-12-08 15:21:15 3484 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2023-12-08 15:21:15 3484 InnoDB: Error: Fetch of persistent statistics requested for table "bdtsr"."categorietireur" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2023-12-08 18:07:53 6400 [Note] D:\Travail\Non Scolaire\Projets\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Normal shutdown
+
+2023-12-08 18:07:53 6400 [Note] Giving 0 client threads a chance to die gracefully
+2023-12-08 18:07:53 6400 [Note] Event Scheduler: Purging the queue. 0 events
+2023-12-08 18:07:53 6400 [Note] Shutting down slave threads
+2023-12-08 18:07:53 6400 [Note] Forcefully disconnecting 0 remaining clients
+2023-12-08 18:07:53 6400 [Note] Binlog end
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'partition'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-12-08 18:07:53 6400 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_CMP'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'INNODB_TRX'
+2023-12-08 18:07:54 6400 [Note] Shutting down plugin 'InnoDB'
+2023-12-08 18:07:54 6400 [Note] InnoDB: FTS optimize thread exiting.
+2023-12-08 18:07:54 6400 [Note] InnoDB: Starting shutdown...
+2023-12-08 18:07:55 6400 [Note] InnoDB: Shutdown completed; log sequence number 1898602
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'BLACKHOLE'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'ARCHIVE'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'MyISAM'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'MEMORY'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'CSV'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'sha256_password'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'mysql_old_password'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'mysql_native_password'
+2023-12-08 18:07:55 6400 [Note] Shutting down plugin 'binlog'
+2023-12-08 18:07:55 6400 [Note] D:\Travail\Non Scolaire\Projets\AppWeb TSR 3.0.2\bin\database\mysql-5.6.20\bin\mysqld.exe: Shutdown complete
+

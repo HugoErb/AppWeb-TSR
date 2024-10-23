@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accueil AppWeb TSR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img id='logo' src="images/logo.png" alt="Logo" /></a>
+        <nav>
+            <ul>
+                <li><a href="ajouter.php">Ajouter</a></li><li><a href="modifier.php">Modifier</a></li><li><a href="consulter.php">Consulter</a><li><a href="lanceraffichage.php">Affichage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainindex">
+        <section id="section1">
+            <div>
+                <center><img id='logo2' src="images/logo.png" alt="Logo" /></center>
+                <h1>AppWeb TSR</h1>
+                <h2>Gestion et affichage des compétitions du Tir Sportif Rochefortais</h2>
+            </div>
+        </section>
+        <section id="sec_article">
+            <article>
+                <h3>Ajout</h3>
+                <br /><i class="fa fa-user-plus fa-4x"></i><br /><br />
+                <p id="para">Créez une nouvelle entité dans la base de données.</p>
+                <input class="btn-grad" type="button" value="Ajouter" onClick="window.location.href='ajouter.php'">
+            </article>
+            <article>
+                <h3>Modification</h3>
+                <br /><i class="fa fa-edit fa-4x"></i><br /><br />
+                <p id="para">Modifiez une entité déjà créee.</p>
+                <input class="btn-grad" type="button" value="Modifier" onClick="window.location.href='modifier.php'">
+            </article>
+            <article>
+                <h3>Consultation</h3>
+                <br /><i class="fa fa-search fa-4x"></i><br /><br />
+                <p id="para">Consultez la base de données.</p>
+                <input class="btn-grad" type="button" value="Consulter" onClick="window.location.href='consulter.php'">
+            </article>
+            <article>
+                <h3>Affichage</h3>
+                <br /><i class="fa fa-television fa-4x"></i><br /><br />
+                <p id="para">Affichez le classement de la compétition choisie.</p>
+                <input class="btn-grad" type="button" value="Affichage"
+                    onClick="window.location.href='lanceraffichage.php'">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© Eribon - Lasvaladas<br />Tous Droits Réservés</p>
+    </footer>
+</body>
+
+</html>
